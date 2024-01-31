@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-family: "Courier New";
+    font-size: medium;
+}
+
+.container > h1{
+    font-size: xx-large;
+}
