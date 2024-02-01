@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+.main{
+    margin-left: 540px;
+}
+
+
+
+.main > p{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 20px;
+}
+
+.main p:first-child{
+    border: dotted red thick;
+}
+
+.main p:nth-child(2){
+    border: dashed red thick;
+}
+
+.main p:nth-child(3){
+    border: solid red thick;
+}
+
+.main p:nth-child(4){
+    border: double red thick;
+}
+.main p:nth-child(5){
+    border: groove red thick;
+}
+.main p:nth-child(6){
+    border: ridge red thick;
+}
+
+.main p:nth-child(7){
+    border: inset red thick;
+}
+
+.main p:last-child{
+    border: outset red thick;
+}
+
+.main p:nth-child(2n){
+    background-color: #2fff2f;
+}
+
