@@ -1,0 +1,25 @@
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 3px;
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: ". h h h h h h h h h h ."
+                            "m c c c c c c c c c c c"
+                            ". f f f f f f f f f f .";
+}
+
+.container :first-child{
+    grid-area: h;
+}
+
+.container :nth-child(2){
+    grid-area: m;
+}
+.container :nth-child(3){
+    grid-area: c;
+}
+
+.container :last-child{
+    grid-area: f;
+}

@@ -1,0 +1,5 @@
+.wrapper{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+}

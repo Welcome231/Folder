@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper :nth-child(2){
+    flex-grow: 1;
+}
+
+.wrapper :nth-child(3){
+    flex-grow: 1;
+}
