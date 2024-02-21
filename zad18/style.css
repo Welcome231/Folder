@@ -1,5 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: "a a";
+
 }
 
 #blok-lewy,#baner-lewy{
@@ -8,7 +15,8 @@ body{
     width: 30%;
     height: 200px;
     text-align: center;
-    float: left
+
+
 }
 
 #blok-prawy, #baner-prawy {
@@ -17,13 +25,13 @@ body{
     width: 70%;
     height: 200px;
     text-align: center;
-    float: left;
+
 }
 
 #blok-glowny, #stopka {
     background-color: rgb(212, 205, 195);
     padding: 120px;
-    clear: both;
+
 
 }
 
@@ -35,4 +43,8 @@ table,td {
 
 a{
     color: rgb(240,234,226);
+}
+
+#baner-lewy, #baner-prawy{
+    grid-area: a;
 }
