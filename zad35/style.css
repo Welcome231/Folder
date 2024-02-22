@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#toptext{
+    font-size: 100px;
+    text-align: left;
+}
+
+.top{
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 50%;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.side{
+    font-size: 30px;
+    padding: 50px;
+
+}
+
+.toptop{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.cont2{
+    display: flex;
+    margin-top: 90px;
+}
+
+.mid{
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 50%;
+    font-size: 100px;
+    padding: 50px;
+}
+
+.midside{
+    font-size: 30px;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.cont3{
+    margin-top: 70px;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+
+
+
+}
+
+.toptext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    height: 250px;
+}
+
+.bottext{
+    padding-top: 50px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.line{
+    margin-top: 50px;
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+
+.slides{
+    display: flex;
+    margin-top: 30px;
+    height: 600px;
+}
+
+.slide1{
+    background-color: black;
+    margin: 10px;
+    width: 33%;
+    height: 500px;
+    color: white;
+}
+
+.slide2{
+    background-color: black;
+    margin: 10px;
+    width: 33%;
+    height: 500px;
+    color: white;
+}
+
+.slide3{
+    background-color: black;
+    margin: 10px;
+    width: 33%;
+    height: 500px;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+}
+.bottom{
+    height: 400px;
+    width: 100%;
+}
+#botomtext{
+    font-size: 100px;
+    text-align: center;
+}
+#tttt{
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
