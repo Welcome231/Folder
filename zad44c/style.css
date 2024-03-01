@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    font-size: 40px;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+a{
+    margin-top: 80px;
+}
+
+.tbot{
+    background-color: lightgray;
+}
