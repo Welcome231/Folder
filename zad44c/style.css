@@ -2,13 +2,43 @@
     display: flex;
     font-size: 40px;
     justify-content: space-around;
-    background-color: gray;
+    background-color: #b0b0b0;
+
 }
 
 a{
     margin-top: 80px;
+    text-decoration: none;
+    color: #424242;
 }
 
 .tbot{
     background-color: lightgray;
 }
+hr{
+    width: 700px;
+}
+
+.text{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+footer{
+    display: flex;
+    width: 98%;
+    height: 50px;
+    background-color: #b0b0b0;
+    justify-content: right;
+    align-items: center;
+
+    padding-right: 20px;
+}
+
+.text3{
+    margin-left: 600px;
+}
+
+
+
