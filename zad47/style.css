@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+
+    text-align: center;
+
+}
+
+.r1{
+    display: flex;
+}
+.obj1{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    align-items: center;
+    background-color: green;
+
+}
+
+h2{
+    width: 500px;
+    height: 500px;
+    color: white;
+}
+
+.obj1 :hover{
+    background-image: url("licensed-image.jpg");
+    background-size: 500px 500px;
+}
+
+
+.obj2{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    align-items: center;
+    background-color: green;
+
+}
+
+
+.obj2 :hover{
+
+    background-image: url("licensed-image2.jpg");
+
+
+    transition-timing-function: linear;
+
+    background-size: 500px 500px;
+}
