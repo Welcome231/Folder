@@ -27,5 +27,29 @@ body{
 }
 
 .photo{
+    display: flex;
   width: 1000px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu{
+    padding: 10px;
+}
+
+h3{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.zsp{
+    background-color: cyan;
+    color: white;
+    width: 1250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
